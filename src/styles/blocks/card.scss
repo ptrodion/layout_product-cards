@@ -20,7 +20,6 @@
   &__name {
     @include text(12px, 500, 18px, $text-accent-color);
 
-    // width: 166px;
     margin: 0 0 4px;
   }
 
@@ -40,8 +39,6 @@
 
   &__footer {
     @include flex-container(16px);
-
-    margin-bottom: 16px;
   }
 
   &__price-label {
